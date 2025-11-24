@@ -3,11 +3,11 @@ pandas>=2.0.0
 requests>=2.31.0
 beautifulsoup4>=4.12.2
 plotly>=5.20.0
-# Pin xhtml2pdf and svglib to avoid rlpycairo/pycairo native build on Streamlit Cloud
-xhtml2pdf==0.2.11
-svglib==1.4.1
 aiohttp>=3.9.0
-lxml==4.9.3
-Pillow
-openpyxl
-reportlab>=3.6.0
+lxml>=4.9.0
+Pillow>=10.0.0
+openpyxl>=3.1.0
+reportlab>=4.0.0
+html5lib>=1.1
+python-arabicreshaper>=3.0.0
+PyPDF2>=3.0.0
